@@ -5,7 +5,12 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
+		"BracketHighlighter",
 		"ChineseLocalizations",
+		"Clickable URLs",
+		"Git blame",
+		"GitGutter",
 		"Package Control",
 		"Terminal"
 	]
