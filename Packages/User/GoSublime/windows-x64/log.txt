@@ -1,0 +1,26 @@
+
+** 2019-08-30 08:12:25.459893 **:
+MarGo: MarGo build failed
+cmd: `['c:\\go\\bin\\go.exe', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.12.9.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+gosublime/margo
+net
+gosublime/something-borrowed/types
+go build gosublime/margo: c:\go\pkg\tool\windows_amd64\compile.exe: chdir C:\Users\win10\AppData\Roaming\Sublime Text 3\Packages\GoSublime\src\gosublime\margo: The system cannot find the path specified.
+go build gosublime/something-borrowed/types: c:\go\pkg\tool\windows_amd64\compile.exe: chdir C:\Users\win10\AppData\Roaming\Sublime Text 3\Packages\GoSublime\src\gosublime\something-borrowed\types: The system cannot find the path specified.
+internal/x/net/http/httpproxy
+net/textproto
+crypto/x509
+internal/x/net/http/httpguts
+crypto/tls
+net/http/httptrace
+net/http
+net/rpc
+gosublime/something-borrowed/gocode
+go build gosublime/something-borrowed/gocode: c:\go\pkg\tool\windows_amd64\compile.exe: chdir C:\Users\win10\AppData\Roaming\Sublime Text 3\Packages\GoSublime\src\gosublime\something-borrowed\gocode: The system cannot find the path specified.
+`
+exception: `None`
+--------------------------------
